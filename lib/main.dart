@@ -4,7 +4,7 @@ import 'emoji_dictionary.dart' as EmojiDict;
 import 'package:google_fonts/google_fonts.dart'; // Import google_fonts
 
 void main() {
-  runApp(EmojifyApp());
+  runApp(const EmojifyApp());
 }
 
 class EmojifyApp extends StatelessWidget {
@@ -19,7 +19,7 @@ class EmojifyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         fontFamily: GoogleFonts.roboto().fontFamily, // Use Roboto
       ),
-      home: EmojifyScreen(),
+      home: const EmojifyScreen(),
     );
   }
 }
@@ -98,7 +98,7 @@ class _EmojifyScreenState extends State<EmojifyScreen> {
                   borderRadius: BorderRadius.circular(8.0),
                 ),
               ),
-              child: Text("Convert to Emoji"),
+              child: const Text("Convert to Emoji"),
             ),
             const SizedBox(height: 20),
             TextField(
@@ -122,7 +122,7 @@ class _EmojifyScreenState extends State<EmojifyScreen> {
                   borderRadius: BorderRadius.circular(8.0),
                 ),
               ),
-              child: Text("Copy to Clipboard"),
+              child: const Text("Copy to Clipboard"),
             ),
           ],
         ),
