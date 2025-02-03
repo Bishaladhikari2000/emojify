@@ -4,7 +4,7 @@ This is a simple Flutter app that converts text into emoji-fied text.  It replac
 
 ## Demo
 
-Try the live demo here: [emojify-iota.vercel.app](emojify-iota.vercel.app)
+Try the live demo here: https://emojify-iota.vercel.app/
 
 ## Features
 
